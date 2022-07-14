@@ -1,0 +1,129 @@
+{
+  "cookies": [
+    {
+      "sameSite": "Lax",
+      "name": "_csrf",
+      "value": "iDmg5gOZ8xE_-tXf57MEgwAK",
+      "domain": "auth.reviews.compono.dev",
+      "path": "/usernamepassword/login",
+      "expires": 1654351793.237656,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "did",
+      "value": "s%3Av0%3A58ff4fe0-dc34-11ec-8491-89bdece3a987.8mwZq9sCYMs8rg%2FsQo8H2KIqK3HEToJl0TCZV6ZilWw",
+      "domain": "auth.reviews.compono.dev",
+      "path": "/",
+      "expires": 1685045393.170239,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "did_compat",
+      "value": "s%3Av0%3A58ff4fe0-dc34-11ec-8491-89bdece3a987.8mwZq9sCYMs8rg%2FsQo8H2KIqK3HEToJl0TCZV6ZilWw",
+      "domain": "auth.reviews.compono.dev",
+      "path": "/",
+      "expires": 1685045393.170305,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "auth0",
+      "value": "s%3AMBYDIfeRuTRCvgKN4kWVz42bYjQNFexz.nF%2FGcqr03lPjGuJVgoKd0yQ36opLbSarze2nxFjtkF0",
+      "domain": "auth.reviews.compono.dev",
+      "path": "/",
+      "expires": 1653491395.545245,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "auth0_compat",
+      "value": "s%3AMBYDIfeRuTRCvgKN4kWVz42bYjQNFexz.nF%2FGcqr03lPjGuJVgoKd0yQ36opLbSarze2nxFjtkF0",
+      "domain": "auth.reviews.compono.dev",
+      "path": "/",
+      "expires": 1653491395.545284,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "mp_cd090c9a3b2bbc65ca3beaf9ce5741ce_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22180fb8d7370a54-0b31ca4ef74fa4-36786600-e1000-180fb8d73711cf5%22%2C%22%24device_id%22%3A%20%22180fb8d7370a54-0b31ca4ef74fa4-36786600-e1000-180fb8d73711cf5%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D",
+      "domain": ".compono.dev",
+      "path": "/",
+      "expires": 1685023795,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "_legacy_auth0.JuxatDpWJNqoj7VW8rHzruBvpPeffX10.is.authenticated",
+      "value": "true",
+      "domain": "candidate--latest.reviews.compono.dev",
+      "path": "/",
+      "expires": 1653574195,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "None",
+      "name": "auth0.JuxatDpWJNqoj7VW8rHzruBvpPeffX10.is.authenticated",
+      "value": "true",
+      "domain": "candidate--latest.reviews.compono.dev",
+      "path": "/",
+      "expires": 1653574195,
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "intercom-id-ewnichpq",
+      "value": "c6f9fa27-9074-4e3b-8ebe-5690df84e89a",
+      "domain": ".compono.dev",
+      "path": "/",
+      "expires": 1676817797,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "None",
+      "name": "chmln-pid-D7YJoVxdGB7MsLkg",
+      "value": "bGN3WGw4RlVUSzVJUzJuTThCNklHTFpCWldCR1pKckhFTXp2TzA0TlFyakZQNU9lQW5meW5BT3FuZ3pWK1l1Wi0tU1FQOWYxL0N0RVZvRUhUdHYreGVBQT09--00c42f6dc5c8f65374b021a998e8922f8675878b",
+      "domain": ".trychameleon.com",
+      "path": "/",
+      "expires": 2284639797.715921,
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "sameSite": "Lax",
+      "name": "intercom-session-ewnichpq",
+      "value": "MnpuYWJucWRqd2xIakdYOEFSYkxRdEcrZEJOMTk5ME1pWDlzSmh4L1pjbk94NmRCNElxSHZLUW1qZ0dtenQ3Sy0tMjZkNWJvc0hiNTF0QlA0VWpxREtJZz09--e65238f315d4fa4ff6616edcac65c607555bd7a5",
+      "domain": ".compono.dev",
+      "path": "/",
+      "expires": 1654092597,
+      "httpOnly": false,
+      "secure": false
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://candidate--latest.reviews.compono.dev",
+      "localStorage": [
+        {
+          "name": "intercom.intercom-state",
+          "value": "{\"app\":{\"color\":\"#333333\",\"secondaryColor\":\"#333333\",\"selfServeSuggestionsMatch\":false,\"name\":\"Shortlyster [TEST]\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true},\"launcherLogoUrl\":null,\"boundWebEvents\":[],\"inboundConversationsDisabled\":true,\"isInstantBootEnabled\":true,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":false},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"user\":{\"role\":\"user\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{}},\"operator\":{\"lastComposerEvent\":0}}"
+        },
+        {
+          "name": "chmln:l.C.d",
+          "value": "{\"profile\":{\"M\":\"Profile\",\"attributes\":{\"id\":\"6285dbe9f93403001370e26e\",\"uid\":\"4244f943-6c7d-4b3e-b8b2-586c2fc5c169\"}}}"
+        }
+      ]
+    }
+  ]
+}

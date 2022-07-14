@@ -1,1 +1,0 @@
-# compono-automation-challenge
