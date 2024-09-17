@@ -1,6 +1,6 @@
 const config = {
   testDir: './tests',
-  retries: 1,
+  retries: 0,
   timeout: 30 * 1000,
   expect: {
     

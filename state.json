@@ -1,127 +1,101 @@
 {
   "cookies": [
     {
-      "sameSite": "Lax",
       "name": "_csrf",
-      "value": "iDmg5gOZ8xE_-tXf57MEgwAK",
+      "value": "TJ5GRdTjO3T_BqBgeSj1CT2O",
       "domain": "auth.reviews.compono.dev",
       "path": "/usernamepassword/login",
-      "expires": 1654351793.237656,
+      "expires": 1727423062.897863,
       "httpOnly": true,
-      "secure": true
+      "secure": true,
+      "sameSite": "Lax"
     },
     {
-      "sameSite": "None",
       "name": "did",
-      "value": "s%3Av0%3A58ff4fe0-dc34-11ec-8491-89bdece3a987.8mwZq9sCYMs8rg%2FsQo8H2KIqK3HEToJl0TCZV6ZilWw",
+      "value": "s%3Av0%3A84efcda2-21f5-44a6-8ee7-1f6348810c6d.0TG6qrhHhEKssF1arhvMV8HZEmWAqYwyuUErQCQu35Q",
       "domain": "auth.reviews.compono.dev",
       "path": "/",
-      "expires": 1685045393.170239,
+      "expires": 1758116662.827905,
       "httpOnly": true,
-      "secure": true
+      "secure": true,
+      "sameSite": "None"
     },
     {
-      "sameSite": "Lax",
       "name": "did_compat",
-      "value": "s%3Av0%3A58ff4fe0-dc34-11ec-8491-89bdece3a987.8mwZq9sCYMs8rg%2FsQo8H2KIqK3HEToJl0TCZV6ZilWw",
+      "value": "s%3Av0%3A84efcda2-21f5-44a6-8ee7-1f6348810c6d.0TG6qrhHhEKssF1arhvMV8HZEmWAqYwyuUErQCQu35Q",
       "domain": "auth.reviews.compono.dev",
       "path": "/",
-      "expires": 1685045393.170305,
+      "expires": 1758116662.828008,
       "httpOnly": true,
-      "secure": true
+      "secure": true,
+      "sameSite": "Lax"
     },
     {
-      "sameSite": "None",
       "name": "auth0",
-      "value": "s%3AMBYDIfeRuTRCvgKN4kWVz42bYjQNFexz.nF%2FGcqr03lPjGuJVgoKd0yQ36opLbSarze2nxFjtkF0",
+      "value": "s%3AJMKXv1ysJlhawm0fV4tijtDMeHwjzYAB.yKjCIbmzb191H4Z8k%2FflP%2BuRj5DCltzYDd6l0z4pNvk",
       "domain": "auth.reviews.compono.dev",
       "path": "/",
-      "expires": 1653491395.545245,
+      "expires": 1726562665.396146,
       "httpOnly": true,
-      "secure": true
+      "secure": true,
+      "sameSite": "None"
     },
     {
-      "sameSite": "Lax",
       "name": "auth0_compat",
-      "value": "s%3AMBYDIfeRuTRCvgKN4kWVz42bYjQNFexz.nF%2FGcqr03lPjGuJVgoKd0yQ36opLbSarze2nxFjtkF0",
+      "value": "s%3AJMKXv1ysJlhawm0fV4tijtDMeHwjzYAB.yKjCIbmzb191H4Z8k%2FflP%2BuRj5DCltzYDd6l0z4pNvk",
       "domain": "auth.reviews.compono.dev",
       "path": "/",
-      "expires": 1653491395.545284,
+      "expires": 1726562665.396247,
       "httpOnly": true,
-      "secure": true
+      "secure": true,
+      "sameSite": "Lax"
     },
     {
-      "sameSite": "Lax",
       "name": "mp_cd090c9a3b2bbc65ca3beaf9ce5741ce_mixpanel",
-      "value": "%7B%22distinct_id%22%3A%20%22180fb8d7370a54-0b31ca4ef74fa4-36786600-e1000-180fb8d73711cf5%22%2C%22%24device_id%22%3A%20%22180fb8d7370a54-0b31ca4ef74fa4-36786600-e1000-180fb8d73711cf5%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D",
+      "value": "%7B%22distinct_id%22%3A%20%22%24device%3A191fef08add25e-0d5445b370454e-16525637-e1000-191fef08ade25e%22%2C%22%24device_id%22%3A%20%22191fef08add25e-0d5445b370454e-16525637-e1000-191fef08ade25e%22%2C%22release%22%3A%20%2273379eedacd6ca3631af01fb802a40a3c4d3f1d0%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D%2C%22__mpus%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpr%22%3A%20%5B%5D%2C%22__mpap%22%3A%20%5B%5D%7D",
       "domain": ".compono.dev",
       "path": "/",
-      "expires": 1685023795,
+      "expires": 1758095065,
       "httpOnly": false,
-      "secure": false
+      "secure": false,
+      "sameSite": "Lax"
     },
     {
-      "sameSite": "Lax",
       "name": "_legacy_auth0.JuxatDpWJNqoj7VW8rHzruBvpPeffX10.is.authenticated",
       "value": "true",
-      "domain": "candidate--latest.reviews.compono.dev",
+      "domain": "candidate-qa-test.dev.platform.compono.dev",
       "path": "/",
-      "expires": 1653574195,
+      "expires": 1726645465,
       "httpOnly": false,
-      "secure": true
+      "secure": true,
+      "sameSite": "Lax"
     },
     {
-      "sameSite": "None",
       "name": "auth0.JuxatDpWJNqoj7VW8rHzruBvpPeffX10.is.authenticated",
       "value": "true",
-      "domain": "candidate--latest.reviews.compono.dev",
+      "domain": "candidate-qa-test.dev.platform.compono.dev",
       "path": "/",
-      "expires": 1653574195,
+      "expires": 1726645465,
       "httpOnly": false,
-      "secure": true
-    },
-    {
-      "sameSite": "Lax",
-      "name": "intercom-id-ewnichpq",
-      "value": "c6f9fa27-9074-4e3b-8ebe-5690df84e89a",
-      "domain": ".compono.dev",
-      "path": "/",
-      "expires": 1676817797,
-      "httpOnly": false,
-      "secure": false
-    },
-    {
-      "sameSite": "None",
-      "name": "chmln-pid-D7YJoVxdGB7MsLkg",
-      "value": "bGN3WGw4RlVUSzVJUzJuTThCNklHTFpCWldCR1pKckhFTXp2TzA0TlFyakZQNU9lQW5meW5BT3FuZ3pWK1l1Wi0tU1FQOWYxL0N0RVZvRUhUdHYreGVBQT09--00c42f6dc5c8f65374b021a998e8922f8675878b",
-      "domain": ".trychameleon.com",
-      "path": "/",
-      "expires": 2284639797.715921,
-      "httpOnly": true,
-      "secure": true
-    },
-    {
-      "sameSite": "Lax",
-      "name": "intercom-session-ewnichpq",
-      "value": "MnpuYWJucWRqd2xIakdYOEFSYkxRdEcrZEJOMTk5ME1pWDlzSmh4L1pjbk94NmRCNElxSHZLUW1qZ0dtenQ3Sy0tMjZkNWJvc0hiNTF0QlA0VWpxREtJZz09--e65238f315d4fa4ff6616edcac65c607555bd7a5",
-      "domain": ".compono.dev",
-      "path": "/",
-      "expires": 1654092597,
-      "httpOnly": false,
-      "secure": false
+      "secure": true,
+      "sameSite": "None"
     }
   ],
   "origins": [
     {
-      "origin": "https://candidate--latest.reviews.compono.dev",
+      "origin": "https://candidate-qa-test.dev.platform.compono.dev",
       "localStorage": [
         {
-          "name": "intercom.intercom-state",
-          "value": "{\"app\":{\"color\":\"#333333\",\"secondaryColor\":\"#333333\",\"selfServeSuggestionsMatch\":false,\"name\":\"Shortlyster [TEST]\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true},\"launcherLogoUrl\":null,\"boundWebEvents\":[],\"inboundConversationsDisabled\":true,\"isInstantBootEnabled\":true,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":false},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"user\":{\"role\":\"user\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{}},\"operator\":{\"lastComposerEvent\":0}}"
+          "name": "__anon_id",
+          "value": "\"784c9166-3fa1-40c7-ae81-aed453da4d49\""
         },
         {
-          "name": "chmln:l.C.d",
-          "value": "{\"profile\":{\"M\":\"Profile\",\"attributes\":{\"id\":\"6285dbe9f93403001370e26e\",\"uid\":\"4244f943-6c7d-4b3e-b8b2-586c2fc5c169\"}}}"
+          "name": "__user_traits",
+          "value": "{\"profile\":{\"id\":\"6877d971-0187-4843-b038-54d487326009\"},\"userId\":\"6877d971-0187-4843-b038-54d487326009\",\"userType\":\"candidate\"}"
+        },
+        {
+          "name": "__user_id",
+          "value": "\"6877d971-0187-4843-b038-54d487326009\""
         }
       ]
     }

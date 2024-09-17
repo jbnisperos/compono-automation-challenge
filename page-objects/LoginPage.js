@@ -11,7 +11,7 @@ async goTo()
 {
     await Promise.all([
     this.page.waitForNavigation(),
-    this.page.goto("https://candidate--latest.reviews.shortlyster.compono.dev/"),
+    this.page.goto("https://candidate-qa-test.dev.platform.compono.dev/"),
   ])
   await this.page.waitForLoadState('networkidle')
 }
