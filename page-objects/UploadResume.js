@@ -7,13 +7,12 @@ exports.UploadResume = class UploadResume {
         this.uploadCV = page.getByTestId('upload-cv-input')
         this.uploadYourCV = page.locator('[data-test-id="upload-dialog"] >> text=Upload your CV')
         this.uploadingInProgress = page.locator("text=Uploading...")
-        this.uploadDialogBox = page.locator('[data-test-id="upload-dialog"]')
+        this.uploadDialogBox = page.getByTestId('upload-dialog').getByTestId('upload-cv-button')
         this.dialogBoxCloseButton = page.locator('.CloseIconButton-sc-19wgu2s-0')
     }
 
     async uploadingYourCV (file) {
       // Click the upload CV button to open the dialog box
-      
       await this.uploadCV.setInputFiles(file);
   
       // Validate the upload progress
