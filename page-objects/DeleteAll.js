@@ -1,8 +1,7 @@
-const { expect} = require("@playwright/test");
-exports.DeleteAll = class DeleteAll{
+const { expect } = require("@playwright/test");
+exports.DeleteAll = class DeleteAll {
 
-    constructor(page)
-    {
+    constructor(page) {
         this.page = page
         this.editExperienceAndSkills = page.locator('[href="/profile/experience-and-skills"]')
         this.editQualifications = page.locator('[href="/profile/qualifications"]')
@@ -11,52 +10,51 @@ exports.DeleteAll = class DeleteAll{
         this.deleteCV = page.getByTestId('upload-status-trash-icon').locator('path')
         this.deletingInProgress = page.locator("text=Deleting...")
         this.countList = page.getByText('NEEDS REVIEW')
-        
+
     }
-    async deleteEditExperienceAndSkills()
-    {
+    async deleteEditExperienceAndSkills() {
         await this.editExperienceAndSkills.click()
         await expect(this.page).toHaveURL(/\/experience-and-skills/)
         await this.page.waitForLoadState('networkidle')
         await this.page.waitForTimeout(2000)
         const count = await this.countList.count()
         console.log(count)
-        for(let i =0; i < count; ++i)
-            {
-              await this.deleteButton.first().click()
-              await this.page.waitForTimeout(2000)
-            }      
+        for (let i = 0; i < count; ++i) {
+            await this.deleteButton.first().click()
+            await this.page.waitForTimeout(2000)
+        }
         await this.backToProfile.click()
         await expect(this.page).toHaveURL(/\/profile/)
         await this.page.waitForLoadState('networkidle')
 
     }
 
-    async deleteEditQualifications()
-    {
+    async deleteEditQualifications() {
         await this.editQualifications.click()
         await expect(this.page).toHaveURL(/\/qualifications/)
         await this.page.waitForLoadState('networkidle')
         await this.page.waitForTimeout(2000)
         const count = await this.countList.count()
         console.log(count)
-        for(let i =0; i < count; ++i)
-            {
-                  await this.deleteButton.first().click()
-                  await this.page.waitForTimeout(2000)
-            }      
+        for (let i = 0; i < count; ++i) {
+            await this.deleteButton.first().click()
+            await this.page.waitForTimeout(2000)
+        }
         await this.backToProfile.click()
         await expect(this.page).toHaveURL(/\/profile/)
         await this.page.waitForLoadState('networkidle')
     }
 
-    async deleteUploadedCV()
-    {
-          await this.deleteCV.click()
-          await this.page.waitForTimeout(2000)  
+    async deleteUploadedCV() {
+        await this.page.waitForTimeout(2000)
+        if (await this.deleteCV.isVisible()) {  // Check if the delete CV button is visible
+            await this.deleteCV.click();
+            await this.page.waitForTimeout(2000);
+        } else {
+            console.log("Delete CV button not found.");
+        }
+
     }
-
-
 }
 
 
